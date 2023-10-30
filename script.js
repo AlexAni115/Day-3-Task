@@ -3,7 +3,12 @@ let obj1 = {name:"Person 1",age :5}
 let obj2 = {age :5,name:"Person 1"}
 var res = JSON.stringify(obj1);
 var res1 = JSON.stringify(obj2);
-console.log(res==res1);
+if (res===res1){
+    console.log(true)
+}
+{
+    console.log(false)
+};
 
 
 //2.Display all the country flags in consloe
